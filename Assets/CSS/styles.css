@@ -10,11 +10,12 @@ html {
 body {
     font-family: sans-serif;
     margin: 0;
-    background-image: linear-gradient(to right, #141414, #061312);
+    background-image: repeating-radial-gradient(rgb(37, 37, 37), #0d2926);
 }
 
 h1 {
     text-align: center;
+    font-size: 48px;
     text-shadow: 4px 4px #000000;
     margin: 15px 0px 0px 0px;
 }
@@ -33,7 +34,8 @@ a {
 }
 
 a:hover {
-    background: rgba(0,0,0,0.95)
+    background: rgba(0,0,0,0.95);
+    color: #ffffff
 }
 
 .navcontainer {
@@ -99,6 +101,7 @@ header:hover {
 
 .card1 {
     background: rgb(61, 61, 78);
+    background-image: url("../Images/Horiseon.png");
     
 }
 
@@ -112,6 +115,10 @@ header:hover {
     right: 50px;
     width: 200px;
 }
+
+/* .card1 p {
+
+} */
 
 .card2 {
     background: rgb(116, 92, 92);
@@ -179,7 +186,7 @@ header:hover {
 h2 {
     text-align: center;
     vertical-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #979797;
     text-shadow: 4px 4px #000000;
     margin: 15px 0px 0px 0px;
