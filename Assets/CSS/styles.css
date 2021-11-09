@@ -146,7 +146,7 @@ h2 {
 .card:hover {
     border: 10px solid rgb(0, 0, 0);
     font-size: 18px;
-
+    color: white;
 }
 
 header {
@@ -171,7 +171,7 @@ header {
     min-width: 200px;
     padding: 10px;
     text-align: center;
-  }
+}
 
 .card1 {
     background-image: url(../Images/Horiseon.png);
