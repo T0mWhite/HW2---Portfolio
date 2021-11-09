@@ -1,3 +1,4 @@
+/* Universal stylings */
 html {
     box-sizing:border-box;
     color: #979797;
@@ -13,6 +14,7 @@ body {
     background-image: repeating-radial-gradient(rgb(37, 37, 37), #0d2926);
 }
 
+/* Top nav and footer stylings */
 h1 {
     text-align: center;
     font-size: 48px;
@@ -60,112 +62,7 @@ a:hover {
     background: rgba(0,0,0,0.35);
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    flex-wrap: nowrap;
-    max-width: 1200px;
-    margin: 10px auto;
-}
-
-.card {
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    font-size: 16px;
-    flex: 1 2 300px;
-    margin: 25px;
-    padding: 20px;
-    width: 80%;
-    transition: all 0.75s;
-}
-
-.card:hover {
-    border: 10px solid rgb(0, 0, 0);
-    font-size: 18px;
-}
-
-header {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    transition: all 0.75s;
-}
-
-header:hover {
-    font-size: 24px;
-}
-
-.card1 {
-    background: rgb(61, 61, 78);
-    background-image: url("../Images/Horiseon.png");
-    
-}
-
-.card1 header {
-    border: 5px solid #000000;
-    border-radius: 10px;
-    background: rgba(0,0,0);
-    position: relative;
-    padding: 10px;
-    top: -50px;
-    right: 50px;
-    width: 200px;
-}
-
-/* .card1 p {
-
-} */
-
-.card2 {
-    background: rgb(116, 92, 92);
-}
-
-.card2 header {
-    border: 5px solid #000000;
-    border-radius: 10px;
-    background: rgba(0,0,0);
-    position: relative;
-    padding: 10px;
-    top: -50px;
-    right: -780px;
-    width: 200px;
-}
-
-.card3 {
-    background: rgb(88, 126, 88);
-    
-}
-
-.card3 header {
-    border: 5px solid #000000;
-    border-radius: 10px;
-    background: rgba(0,0,0);
-    position: relative;
-    padding: 10px;
-    top: -50px;
-    right: 50px;
-    width: 200px;
-}
-
-.card4 {
-    background: rgb(138, 138, 85);
-}
-
-.card4 header {
-    border: 5px solid #000000;
-    border-radius: 10px;
-    background: rgba(0,0,0);
-    position: relative;
-    padding: 10px;
-    top: -50px;
-    right: -780px;
-    width: 200px;
-}
-
+/* Footer specific stylings */
 .flex-footer ul {
     border: 5px solid #000000;
     border-radius: 10px;
@@ -192,9 +89,117 @@ h2 {
     margin: 15px 0px 0px 0px;
 }
 
+
+/* Main items */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.card {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 16px;
+    flex: 1 2 300px;
+    margin: 15px;
+    padding: 20px;
+    width: 80%;
+    transition: all 0.75s;
+}
+
+.card:hover {
+    border: 10px solid rgb(0, 0, 0);
+    font-size: 18px;
+
+}
+
+header {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.75s;
+}
+
+.card1 {
+    background-image: url(../Images/Horiseon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1 header {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    background: rgba(0,0,0);
+    position: relative;
+    padding: 5px;
+    top: -50px;
+    right: 50px;
+    width: 300px;
+    filter: none;
+}
+
+.card2 {
+    background: rgb(116, 92, 92);
+}
+
+.card2 header {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    background: rgba(0,0,0);
+    position: relative;
+    padding: 5px;
+    top: -50px;
+    right: 50px;
+    width: 300px;
+    filter: none;
+}
+
+.card3 {
+    background: rgb(88, 126, 88);
+    
+}
+
+.card3 header {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    background: rgba(0,0,0);
+    position: relative;
+    padding: 5px;
+    top: -50px;
+    right: 50px;
+    width: 300px;
+}
+
+.card4 {
+    background: rgb(138, 138, 85);
+}
+
+.card4 header {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    background: rgba(0,0,0);
+    position: relative;
+    padding: 5px;
+    top: -50px;
+    right: 50px;
+    width: 300px;
+    filter: none;
+}
+
+
+/* Media queries for screen sizes */
 @media all and (max-width:768px) {
     .flex-nav ul {
         flex-wrap: wrap;
     }
 }
+
 
