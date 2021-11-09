@@ -261,12 +261,12 @@ header {
 
 /* Laptop */
 @media all and (max-width:1280px) {
-
+/* No change needed */
     }
 }
 
 /* Full 1080p */
 @media all and (max-width:1920px) {
-
+/* No change needed */
     }
 }
