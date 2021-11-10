@@ -251,7 +251,7 @@ header {
         flex-direction: column;
     }
     .flex-footer ul {
-        margin-top: 20%;
+        /* margin-top: 20%; */
     }
     .project-text {
         top: 40%;
