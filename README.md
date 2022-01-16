@@ -2,6 +2,6 @@
 
 ## 1st Edition
 
-Built a starting portfolio page to add to during the rest of the course. Added nav bar with anchor links as well as contact links out of the site.
+A portfolio page for updating with more projects as my bootcamp progresses. Contains a nav bar with anchor links as well as contact links.
 
-Showcases some of my work with placeholders for new projects. Tasteful but interactive design meant to convey professionalism.
+Showcases some of my work with easy expansion for new projects. Tasteful but interactive design meant to convey professionalism.
