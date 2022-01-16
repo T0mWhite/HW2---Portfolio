@@ -194,7 +194,11 @@ header {
 }
 
 .card2 {
-    background: rgb(116, 92, 92);
+    background-image: url(../Images/Employeetracker.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 450px;
 }
 
 .card2 header {
@@ -210,8 +214,11 @@ header {
 }
 
 .card3 {
-    background: rgb(88, 126, 88);
-    
+    background-image: url(../Images/Workday.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 450px;
 }
 
 .card3 header {
@@ -226,7 +233,11 @@ header {
 }
 
 .card4 {
-    background: rgb(138, 138, 85);
+    background-image: url(../Images/Note\ Taker.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 450px;
 }
 
 .card4 header {
@@ -259,14 +270,10 @@ header {
     }
 }
 
-/* Laptop */
+/* Laptop
 @media all and (max-width:1280px) {
 /* No change needed */
-    }
-}
 
 /* Full 1080p */
-@media all and (max-width:1920px) {
+/* @media all and (max-width:1920px) { */
 /* No change needed */
-    }
-}
