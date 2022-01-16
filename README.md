@@ -1,6 +1,6 @@
 # CSS Portfolio
 
-## 1st Edition
+## 3rd Edition
 
 A portfolio page for updating with more projects as my bootcamp progresses. Contains a nav bar with anchor links as well as contact links.
 
